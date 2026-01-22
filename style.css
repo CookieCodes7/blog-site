@@ -8,18 +8,18 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #e0e0e0;
+    background-color: #1a1a1a;
 }
 
 a {
-    color: #0066cc;
+    color: #66b3ff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #0052a3;
+    color: #99ccff;
 }
 
 .container {
@@ -30,8 +30,8 @@ a:hover {
 
 /* Header */
 .header {
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #262626;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -47,7 +47,7 @@ a:hover {
 .logo {
     font-size: 28px;
     font-weight: bold;
-    color: #333;
+    color: #e0e0e0;
 }
 
 .nav ul {
@@ -59,12 +59,12 @@ a:hover {
 .nav a {
     font-size: 16px;
     font-weight: 500;
-    color: #333;
+    color: #e0e0e0;
     transition: color 0.3s ease;
 }
 
 .nav a:hover {
-    color: #0066cc;
+    color: #66b3ff;
 }
 
 /* Main Content */
@@ -86,15 +86,15 @@ main {
 }
 
 .post {
-    background-color: #fff;
+    background-color: #262626;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .post:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
 }
 
@@ -106,12 +106,12 @@ main {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #333;
+    color: #e0e0e0;
 }
 
 .post-date {
     font-size: 14px;
-    color: #888;
+    color: #999;
 }
 
 .post-image {
@@ -125,14 +125,14 @@ main {
     padding: 0 30px 20px 30px;
     font-size: 16px;
     line-height: 1.8;
-    color: #555;
+    color: #b0b0b0;
 }
 
 .read-more {
     display: inline-block;
     padding: 10px 30px;
     margin: 0 30px 30px 30px;
-    background-color: #0066cc;
+    background-color: #0088ff;
     color: #fff;
     border-radius: 4px;
     font-weight: 500;
@@ -140,7 +140,7 @@ main {
 }
 
 .read-more:hover {
-    background-color: #0052a3;
+    background-color: #0066cc;
     color: #fff;
 }
 
@@ -152,24 +152,24 @@ main {
 }
 
 .widget {
-    background-color: #fff;
+    background-color: #262626;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .widget h3 {
     font-size: 18px;
     margin-bottom: 15px;
-    color: #333;
-    border-bottom: 2px solid #0066cc;
+    color: #e0e0e0;
+    border-bottom: 2px solid #0088ff;
     padding-bottom: 10px;
 }
 
 .widget p {
     font-size: 14px;
     line-height: 1.6;
-    color: #666;
+    color: #b0b0b0;
 }
 
 .sidebar-list {
@@ -178,7 +178,7 @@ main {
 
 .sidebar-list li {
     padding: 8px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #444;
 }
 
 .sidebar-list li:last-child {
@@ -187,20 +187,21 @@ main {
 
 .sidebar-list a {
     font-size: 14px;
-    color: #0066cc;
+    color: #66b3ff;
 }
 
 .sidebar-list a:hover {
-    color: #0052a3;
+    color: #99ccff;
 }
 
 /* Footer */
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
     text-align: center;
     padding: 30px 20px;
     margin-top: 60px;
+    border-top: 1px solid #444;
 }
 
 .footer p {
